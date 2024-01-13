@@ -327,6 +327,6 @@ function shakeNo() {
 function createButton(text, className) {
     const button = document.createElement('button');
     button.textContent = text;
-    button.classList.add(className, 'shake-on-click');
+    button.classList.add(className);
     return button;
 }
